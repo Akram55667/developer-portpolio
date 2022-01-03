@@ -15,9 +15,11 @@ h1{
 .A{
     color: coral;
 }
-section{
+.flexibale-container{
     display:flex;
     margin-bottom: 150px;
+}
+ 
 }
 .hlaf{
          width: 50%; 
@@ -32,7 +34,7 @@ section{
     background-color: rgb(216, 77, 13);
     padding: 10px 20px;
     border-radius: 5px;
-    background-image: linear-gradient( orange rgb(81, 117, 15));
+    background-image: linear-gradient(orange rgb(81, 117, 15));
 }
 .rima{
     background-image: url(top-banner.png);
@@ -43,4 +45,34 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experiences-item{
+    background-image: url(exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+.Experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid royalblue;
+
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(204, 13, 45), cyan);
+    border-image-slice:1 ;
+}
+#web-akram{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(214, 13, 147), rgb(255, 153, 0));
+    border-image-slice:1 ;
+
+}
+footer p{
+    text-align:center;
 }
