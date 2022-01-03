@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+
+}
+h1{
+  font-size: 50px;
+
+}
+.fron{
+    color: blue;
+    
+
+}
+.A{
+    color: coral;
+}
+section{
+    display:flex;
+}
+.hlaf{
+         width: 50%; 
+       padding-left: 5%;
+
+}
+.hlaf img{
+    width: 100%;
+}
+.rohan{
+    text-decoration:none;
+    background-color: rgb(216, 77, 13);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient( orange rgb(81, 117, 15));
+}
+.rima{
+    background-image: url(top-banner.png);
+    background-repeat:no-repeat;
+    padding-left: 5%;
+}
